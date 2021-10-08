@@ -1,0 +1,132 @@
+{"frames": {
+
+"01.png":
+{
+	"frame": {"x":997,"y":676,"w":146,"h":139},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":146,"h":139},
+	"sourceSize": {"w":146,"h":139}
+},
+"02.png":
+{
+	"frame": {"x":951,"y":1424,"w":199,"h":174},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":199,"h":174},
+	"sourceSize": {"w":199,"h":174}
+},
+"03.png":
+{
+	"frame": {"x":252,"y":1443,"w":127,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":42,"w":127,"h":104},
+	"sourceSize": {"w":168,"h":146}
+},
+"Austin.png":
+{
+	"frame": {"x":862,"y":1424,"w":87,"h":306},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":306},
+	"sourceSize": {"w":87,"h":306}
+},
+"btn.png":
+{
+	"frame": {"x":631,"y":676,"w":364,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":364,"h":124},
+	"sourceSize": {"w":364,"h":124}
+},
+"choosed.png":
+{
+	"frame": {"x":142,"y":1574,"w":120,"h":119},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":119},
+	"sourceSize": {"w":120,"h":119}
+},
+"circle.png":
+{
+	"frame": {"x":1,"y":1443,"w":139,"h":139},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":139,"h":139},
+	"sourceSize": {"w":139,"h":139}
+},
+"decoration.png":
+{
+	"frame": {"x":1,"y":1,"w":1163,"h":673},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1163,"h":673},
+	"sourceSize": {"w":1163,"h":673}
+},
+"icon_hammer.png":
+{
+	"frame": {"x":142,"y":1443,"w":108,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":108,"h":129},
+	"sourceSize": {"w":108,"h":129}
+},
+"new_stair_01.png":
+{
+	"frame": {"x":631,"y":860,"w":562,"h":661},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":562,"h":661},
+	"sourceSize": {"w":562,"h":661}
+},
+"new_stair_02.png":
+{
+	"frame": {"x":1294,"y":860,"w":584,"h":660},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":584,"h":660},
+	"sourceSize": {"w":584,"h":660}
+},
+"new_stair_03.png":
+{
+	"frame": {"x":1,"y":676,"w":628,"h":765},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":628,"h":765},
+	"sourceSize": {"w":628,"h":765}
+},
+"ok.png":
+{
+	"frame": {"x":1127,"y":1424,"w":164,"h":105},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":105},
+	"sourceSize": {"w":164,"h":105}
+},
+"oldStair.png":
+{
+	"frame": {"x":1166,"y":1,"w":857,"h":652},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":857,"h":652},
+	"sourceSize": {"w":857,"h":652}
+},
+"plant3.png":
+{
+	"frame": {"x":631,"y":1424,"w":229,"h":217},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":229,"h":217},
+	"sourceSize": {"w":229,"h":217}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sprites.png",
+	"format": "RGBA8888",
+	"size": {"w":1879,"h":1731},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4a737df54f9d030daa5deefef97d4713:2453fe01425406c085a3c9cd0a394f93:1eabdf11f75e3a4fe3147baf7b5be24b$"
+}
+}
