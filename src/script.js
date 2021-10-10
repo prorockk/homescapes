@@ -1,10 +1,6 @@
-const currentWidth = window.innerWidth;
-const currentHeight = window.innerHeight;
-document.body.style.overflow = 'hidden';
-
 const options = {
-    width: currentWidth,
-    height: currentWidth/2.17,
+    width: innerWidth,
+    height: innerWidth/2.17,
 }
 
 const app = new PIXI.Application(options);
@@ -26,11 +22,27 @@ function setup () {
         app.loader.resources["./assets/sprites.json"].textures["back.png"]
     );
     const logo = PIXI.Sprite.from("./assets/logo.png");
-    logo.width = 300;
-    logo.height = 100;
     logo.x = 30;
     logo.y = 5;
-    logo._zIndex = 10;
+
+    const btn = new PIXI.Sprite(
+        app.loader.resources["./assets/sprites.json"].textures["btn.png"]
+    );
+    btn.anchor.set(0.5)
+    btn.x = 682;
+    btn.y = 556;
+    btn.interactive = true;
+    btn.on('click', () => window.location.href = 'https://play.google.com/store/apps/details?id=com.playrix.homescapes')
+
+
+    let btnScale = 1;
+    let deltaScale = 0.003;
+    app.ticker.add(() => {
+        btnScale += deltaScale
+        btnScale < 1 || btnScale > 1.1 ? deltaScale *= -1 : deltaScale
+        btn.scale.set(btnScale)
+    });
+
 
     const decoration = new PIXI.Sprite(
         app.loader.resources["./assets/sprites.json"].textures["decoration.png"]
@@ -80,11 +92,13 @@ function setup () {
 
 
     stairs.addChild(oldStair)
-    app.stage.addChild(background, Austin, decoration, stairs, plant3, logo);
+    app.stage.addChild(background, Austin, decoration, stairs, plant3, logo, btn);
     app.stage.scale.set(window.innerWidth/1390)
     document.body.appendChild(app.view);
     getWindowParam()
 }
+
+
 
 function renderMenu(stairs) {
     const menu = new PIXI.Container();
@@ -111,19 +125,19 @@ function renderMenu(stairs) {
     const variant1 = new PIXI.Container();
     variant1.interactive=true
     variant1.on('click', () => {
-        renderNewStair(menu, stairs, variant1, 1, ok, selected)
+        renderNewStair(stairs, variant1, 1, ok, selected)
     })
     const variant2 = new PIXI.Container();
     variant2.x = 130
     variant2.interactive=true
     variant2.on('click', () => {
-        renderNewStair(menu, stairs, variant2, 2, ok, selected)
+        renderNewStair(stairs, variant2, 2, ok, selected)
     })
     const variant3 = new PIXI.Container();
     variant3.x = 260
     variant3.interactive=true
     variant3.on('click', () => {
-        renderNewStair(menu, stairs, variant3, 3, ok, selected)
+        renderNewStair(stairs, variant3, 3, ok, selected)
     })
 
     const back1 = new PIXI.Sprite(
@@ -163,7 +177,7 @@ function renderMenu(stairs) {
     stairs.removeChildAt(1)
 }
 
-function renderNewStair(menu, stairContainer, variantContainer, variant, ok, selected) {
+function renderNewStair(stairContainer, variantContainer, variant, ok, selected) {
     stairContainer.removeChildren()
     const newStair = new PIXI.Sprite(
         app.loader.resources["./assets/sprites.json"].textures[`new_stair_0${variant}.png`]
@@ -220,5 +234,5 @@ function renderFinal() {
         finalScale > 1 ? final.scale.set(1) : final.scale.set(finalScale)
     });
     
-    app.stage.addChildAt(final, app.stage.children.length-1)
+    app.stage.addChildAt(final, app.stage.children.length-2)
 }
