@@ -2,31 +2,31 @@
 
 "01.png":
 {
-	"frame": {"x":2093,"y":1419,"w":146,"h":139},
-	"rotated": false,
+	"frame": {"x":191,"y":2144,"w":146,"h":139},
+	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":146,"h":139},
 	"sourceSize": {"w":146,"h":139}
 },
 "02.png":
 {
-	"frame": {"x":2270,"y":895,"w":199,"h":174},
-	"rotated": true,
+	"frame": {"x":1285,"y":1871,"w":199,"h":174},
+	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":199,"h":174},
 	"sourceSize": {"w":199,"h":174}
 },
 "03.png":
 {
-	"frame": {"x":2224,"y":1560,"w":127,"h":104},
-	"rotated": false,
+	"frame": {"x":774,"y":2141,"w":127,"h":104},
+	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":42,"w":127,"h":104},
 	"sourceSize": {"w":168,"h":146}
 },
 "Austin.png":
 {
-	"frame": {"x":2093,"y":1330,"w":87,"h":306},
+	"frame": {"x":655,"y":2052,"w":87,"h":306},
 	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":306},
@@ -35,14 +35,22 @@
 "back.png":
 {
 	"frame": {"x":1,"y":1,"w":1390,"h":640},
-	"rotated": true,
+	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":1390,"h":640},
 	"sourceSize": {"w":1390,"h":640}
 },
+"book_stand.png":
+{
+	"frame": {"x":332,"y":2144,"w":140,"h":189},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":189},
+	"sourceSize": {"w":140,"h":189}
+},
 "btn.png":
 {
-	"frame": {"x":2144,"y":895,"w":364,"h":124},
+	"frame": {"x":1790,"y":771,"w":364,"h":124},
 	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":364,"h":124},
@@ -50,55 +58,63 @@
 },
 "choosed.png":
 {
-	"frame": {"x":2270,"y":1203,"w":120,"h":119},
-	"rotated": true,
+	"frame": {"x":1795,"y":1871,"w":120,"h":119},
+	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":119},
 	"sourceSize": {"w":120,"h":119}
 },
 "circle.png":
 {
-	"frame": {"x":2241,"y":1419,"w":139,"h":139},
+	"frame": {"x":523,"y":2144,"w":139,"h":139},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":139,"h":139},
 	"sourceSize": {"w":139,"h":139}
 },
-"decoration.png":
-{
-	"frame": {"x":1285,"y":1,"w":1163,"h":673},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":1163,"h":673},
-	"sourceSize": {"w":1163,"h":673}
-},
 "final.png":
 {
-	"frame": {"x":643,"y":1,"w":1390,"h":640},
+	"frame": {"x":1393,"y":664,"w":610,"h":395},
 	"rotated": true,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":1390,"h":640},
-	"sourceSize": {"w":1390,"h":640}
+	"spriteSourceSize": {"x":0,"y":0,"w":610,"h":395},
+	"sourceSize": {"w":610,"h":395}
+},
+"globe.png":
+{
+	"frame": {"x":1,"y":2144,"w":147,"h":188},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":147,"h":188},
+	"sourceSize": {"w":147,"h":188}
 },
 "icon_hammer.png":
 {
-	"frame": {"x":2093,"y":1560,"w":108,"h":129},
-	"rotated": true,
+	"frame": {"x":664,"y":2141,"w":108,"h":129},
+	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":108,"h":129},
 	"sourceSize": {"w":108,"h":129}
 },
+"logo.png":
+{
+	"frame": {"x":1795,"y":1992,"w":300,"h":103},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":103},
+	"sourceSize": {"w":300,"h":103}
+},
 "new_stair_01.png":
 {
-	"frame": {"x":663,"y":1393,"w":562,"h":661},
-	"rotated": true,
+	"frame": {"x":1393,"y":1,"w":562,"h":661},
+	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":562,"h":661},
 	"sourceSize": {"w":562,"h":661}
 },
 "new_stair_02.png":
 {
-	"frame": {"x":1,"y":1393,"w":584,"h":660},
+	"frame": {"x":1285,"y":1285,"w":584,"h":660},
 	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":584,"h":660},
@@ -106,15 +122,15 @@
 },
 "new_stair_03.png":
 {
-	"frame": {"x":1326,"y":1330,"w":628,"h":765},
-	"rotated": true,
+	"frame": {"x":655,"y":1285,"w":628,"h":765},
+	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":628,"h":765},
 	"sourceSize": {"w":628,"h":765}
 },
 "ok.png":
 {
-	"frame": {"x":2270,"y":1096,"w":164,"h":105},
+	"frame": {"x":1790,"y":664,"w":164,"h":105},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":105},
@@ -122,27 +138,59 @@
 },
 "oldStair.png":
 {
-	"frame": {"x":1285,"y":676,"w":857,"h":652},
-	"rotated": false,
+	"frame": {"x":1,"y":1285,"w":857,"h":652},
+	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":857,"h":652},
 	"sourceSize": {"w":857,"h":652}
 },
+"overlay.png":
+{
+	"frame": {"x":1,"y":643,"w":1390,"h":640},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1390,"h":640},
+	"sourceSize": {"w":1390,"h":640}
+},
 "plant3.png":
 {
-	"frame": {"x":2144,"y":676,"w":229,"h":217},
-	"rotated": false,
+	"frame": {"x":963,"y":2052,"w":229,"h":217},
+	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":229,"h":217},
 	"sourceSize": {"w":229,"h":217}
+},
+"small_plants.png":
+{
+	"frame": {"x":1790,"y":1137,"w":94,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":123},
+	"sourceSize": {"w":94,"h":123}
+},
+"sofa.png":
+{
+	"frame": {"x":1486,"y":1871,"w":375,"h":307},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":375,"h":307},
+	"sourceSize": {"w":375,"h":307}
+},
+"table.png":
+{
+	"frame": {"x":1182,"y":2052,"w":279,"h":205},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":279,"h":205},
+	"sourceSize": {"w":279,"h":205}
 }},
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
 	"image": "sprites.png",
 	"format": "RGBA8888",
-	"size": {"w":2449,"h":1978},
+	"size": {"w":1956,"h":2293},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:3c31d8ca2c29144166465c30862ca1f2:f7b2991924496b84ce809481e356519e:1eabdf11f75e3a4fe3147baf7b5be24b$"
+	"smartupdate": "$TexturePacker:SmartUpdate:d6e570b48c18410bf3a637192d642e62:5f3eda42f00050aa75b641ca0c7caa71:1eabdf11f75e3a4fe3147baf7b5be24b$"
 }
 }
